@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hashtag.eldya7een">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.elabda3.eldaya7een.SendSMSPackage.SendSmsActivity"></activity>
+        <activity android:name="com.elabda3.eldaya7een.ImageAlbumDetails.ImageAlbumDetailsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.AddCommentPackage.AddCommentActivity" />
+        <activity android:name="com.elabda3.eldaya7een.CalenderDetailsPackage.CalenderDetailsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.AdsPackage.AdsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.VideoDetailsPackage.VideoDetailsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.CalenderPackage.LastFiveReservationsPackage.LastFiveReservationActivity" />
+        <activity android:name="com.elabda3.eldaya7een.CalenderPackage.DialogReservation.DialogReservaion" />
+        <activity android:name="com.elabda3.eldaya7een.NewsDetailCommentsPackage.CommentsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.NewsPackage.NewsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.ImageAlbumPackage.ImageAlbumActivity" />
+        <activity android:name="com.elabda3.eldaya7een.CalenderPackage.CalenderActivity" />
+        <activity android:name="com.elabda3.eldaya7een.UrlPagePackage.UrlPageActivity" />
+        <activity android:name="com.elabda3.eldaya7een.AddDirectoryPackage.AddDirectoryDialogActivity" />
+        <activity android:name="com.elabda3.eldaya7een.PagePackage.PageActivity" />
+        <activity android:name="com.elabda3.eldaya7een.DirectoryPackage.DirectoryActivity" />
+        <activity android:name="com.elabda3.eldaya7een.NewsDetailsPackage.NewsDetailsActivity" />
+        <activity android:name="com.elabda3.eldaya7een.MainActivity" />
+        <activity android:name="com.elabda3.eldaya7een.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

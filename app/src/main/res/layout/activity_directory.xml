@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:layoutDirection="ltr"
+
+    tools:context="com.elabda3.eldaya7een.DirectoryPackage.DirectoryActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/toolbar_bg"
+            android:id="@+id/toolbar"
+            app:layout_scrollFlags="scroll|enterAlways"
+            >
+
+            <com.elabda3.eldaya7een.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/toolbarTitle"
+                android:gravity="center"
+                android:text="الدليل العائلى"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:src="@drawable/add_phone"
+                android:layout_gravity="right"
+                android:id="@+id/addDirectory"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="true"/>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/directoryRecycler"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progress"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

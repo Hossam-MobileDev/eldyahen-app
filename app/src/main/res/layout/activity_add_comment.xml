@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/relative"
+        android:layoutDirection="ltr"
+
+        tools:context=".AddCommentPackage.AddCommentActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment_bg"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dialog_comment"
+                android:layout_gravity="center"/>
+
+            <com.elabda3.eldaya7een.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="إضافة تعليق"
+                android:textColor="#C4880A"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <com.elabda3.eldaya7een.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/focusbackground"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13sp"
+                android:id="@+id/fullName"
+                android:textColor="#000000"
+                android:gravity="right"
+                android:padding="10dp"
+                android:maxLines="2"
+                android:inputType="textMultiLine"
+                android:hint="اسمك بالكامل"
+                android:textColorHint="#B58415"/>
+
+
+
+            <com.elabda3.eldaya7een.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/focusbackground"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13sp"
+                android:id="@+id/email"
+                android:textColor="#000000"
+                android:gravity="right"
+                android:padding="10dp"
+                android:maxLines="2"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#B58415"
+                android:hint="بريدك الإلكتروني"/>
+
+
+            <com.elabda3.eldaya7een.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/focusbackground"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13sp"
+                android:id="@+id/comment"
+                android:textColor="#000000"
+                android:gravity="right"
+                android:textColorHint="#B58415"
+                android:hint="تعليقك هنا"
+                android:inputType="textMultiLine"
+                android:maxLines="6"
+                android:padding="10dp"/>
+
+
+
+
+            <com.elabda3.eldaya7een.MyButtonBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="إرسال"
+                android:id="@+id/send"
+                android:background="#816A51"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:id="@+id/progress"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

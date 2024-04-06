@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_white_no_border"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layoutDirection="ltr"
+
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/image1"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="2dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/image2"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="2dp"
+
+        />
+
+    <com.elabda3.eldaya7een.MyTextViewBold
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/num"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:background="@drawable/round_orange_fill"
+        />
+
+    <com.elabda3.eldaya7een.MyTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:id="@+id/title"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+</LinearLayout>

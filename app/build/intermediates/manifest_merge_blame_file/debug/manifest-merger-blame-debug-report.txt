@@ -1,0 +1,246 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hashtag.eldya7een"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:11:5-80
+11-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:11:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.github.PierfrancescoSoffritti:AndroidYouTubePlayer:0.7.8] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1f4667a2a1bda5bc2e17bcd57ed82f3d\jetified-AndroidYouTubePlayer-0.7.8\AndroidManifest.xml:11:5-67
+12-->[com.github.PierfrancescoSoffritti:AndroidYouTubePlayer:0.7.8] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1f4667a2a1bda5bc2e17bcd57ed82f3d\jetified-AndroidYouTubePlayer-0.7.8\AndroidManifest.xml:11:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.github.PierfrancescoSoffritti:AndroidYouTubePlayer:0.7.8] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1f4667a2a1bda5bc2e17bcd57ed82f3d\jetified-AndroidYouTubePlayer-0.7.8\AndroidManifest.xml:12:5-79
+13-->[com.github.PierfrancescoSoffritti:AndroidYouTubePlayer:0.7.8] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1f4667a2a1bda5bc2e17bcd57ed82f3d\jetified-AndroidYouTubePlayer-0.7.8\AndroidManifest.xml:12:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:21:5-67
+14-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:21:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:22:5-81
+15-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:22:22-79
+16
+17    <permission
+17-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:24:5-109
+18        android:name="com.hashtag.eldya7een.permission.C2D_MESSAGE"
+18-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:24:17-71
+19        android:protectionLevel="signature" />
+19-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:24:72-107
+20
+21    <uses-permission android:name="com.hashtag.eldya7een.permission.C2D_MESSAGE" />
+21-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:26:5-78
+21-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:26:22-76
+22
+23    <application
+23-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:5:5-39:19
+24        android:allowBackup="true"
+24-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:6:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.4.0-alpha01] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\bdb0f4539796f64307f2159dbe4c7b0f\core-1.4.0-alpha01\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:7:9-43
+28        android:label="@string/app_name"
+28-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:8:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:9:9-54
+30        android:supportsRtl="true"
+30-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:10:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:11:9-40
+33        <activity android:name="com.elabda3.eldaya7een.SendSMSPackage.SendSmsActivity" />
+33-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:12:9-99
+33-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:12:19-87
+34        <activity android:name="com.elabda3.eldaya7een.ImageAlbumDetails.ImageAlbumDetailsActivity" />
+34-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:13:9-103
+34-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:13:19-100
+35        <activity android:name="com.elabda3.eldaya7een.AddCommentPackage.AddCommentActivity" />
+35-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:14:9-96
+35-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:14:19-93
+36        <activity android:name="com.elabda3.eldaya7een.CalenderDetailsPackage.CalenderDetailsActivity" />
+36-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:15:9-106
+36-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:15:19-103
+37        <activity android:name="com.elabda3.eldaya7een.AdsPackage.AdsActivity" />
+37-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:16:9-82
+37-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:16:19-79
+38        <activity android:name="com.elabda3.eldaya7een.VideoDetailsPackage.VideoDetailsActivity" />
+38-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:17:9-100
+38-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:17:19-97
+39        <activity android:name="com.elabda3.eldaya7een.CalenderPackage.LastFiveReservationsPackage.LastFiveReservationActivity" />
+39-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:18:9-131
+39-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:18:19-128
+40        <activity android:name="com.elabda3.eldaya7een.CalenderPackage.DialogReservation.DialogReservaion" />
+40-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:19:9-110
+40-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:19:19-107
+41        <activity android:name="com.elabda3.eldaya7een.NewsDetailCommentsPackage.CommentsActivity" />
+41-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:20:9-102
+41-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:20:19-99
+42        <activity android:name="com.elabda3.eldaya7een.NewsPackage.NewsActivity" />
+42-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:21:9-84
+42-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:21:19-81
+43        <activity android:name="com.elabda3.eldaya7een.ImageAlbumPackage.ImageAlbumActivity" />
+43-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:22:9-96
+43-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:22:19-93
+44        <activity android:name="com.elabda3.eldaya7een.CalenderPackage.CalenderActivity" />
+44-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:23:9-92
+44-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:23:19-89
+45        <activity android:name="com.elabda3.eldaya7een.UrlPagePackage.UrlPageActivity" />
+45-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:24:9-90
+45-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:24:19-87
+46        <activity android:name="com.elabda3.eldaya7een.AddDirectoryPackage.AddDirectoryDialogActivity" />
+46-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:25:9-106
+46-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:25:19-103
+47        <activity android:name="com.elabda3.eldaya7een.PagePackage.PageActivity" />
+47-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:26:9-84
+47-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:26:19-81
+48        <activity android:name="com.elabda3.eldaya7een.DirectoryPackage.DirectoryActivity" />
+48-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:27:9-94
+48-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:27:19-91
+49        <activity android:name="com.elabda3.eldaya7een.NewsDetailsPackage.NewsDetailsActivity" />
+49-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:28:9-98
+49-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:28:19-95
+50        <activity android:name="com.elabda3.eldaya7een.MainActivity" />
+50-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:29:9-72
+50-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:29:19-69
+51        <activity android:name="com.elabda3.eldaya7een.SplashActivity" >
+51-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:30:9-36:20
+51-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:30:19-71
+52            <intent-filter>
+52-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:31:13-35:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:32:17-69
+53-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:32:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:34:17-77
+55-->D:\SOURCE CODE\ELdya7een\app\src\main\AndroidManifest.xml:34:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:16:9-24:20
+59            android:name="com.darsh.multipleimageselect.activities.AlbumSelectActivity"
+59-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:17:13-88
+60            android:configChanges="orientation|screenSize"
+60-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:18:13-59
+61            android:label="@string/app_name"
+61-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:19:13-45
+62            android:theme="@style/MultipleImageSelectTheme" >
+62-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:20:13-60
+63            <intent-filter>
+63-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:21:13-23:29
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:22:17-76
+64-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:22:27-73
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:25:9-33:20
+68            android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity"
+68-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:26:13-88
+69            android:configChanges="orientation|screenSize"
+69-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:27:13-59
+70            android:label="@string/app_name"
+70-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:28:13-45
+71            android:theme="@style/MultipleImageSelectTheme" >
+71-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:29:13-60
+72            <intent-filter>
+72-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:21:13-23:29
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:22:17-76
+73-->[com.github.darsh2:MultipleImageSelect:3474549] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\86cc091cd730d04cacc2e4ee67e704db\jetified-MultipleImageSelect-3474549\AndroidManifest.xml:22:27-73
+74            </intent-filter>
+75        </activity>
+76        <!--
+77 FirebaseMessagingService performs security checks at runtime,
+78             no need for explicit permissions despite exported="true"
+79        -->
+80        <service
+80-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:23:9-27:19
+81            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+81-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:23:18-87
+82            android:exported="true" >
+82-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:23:88-111
+83            <intent-filter android:priority="-500" >
+83-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:24:13-26:29
+83-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:24:28-51
+84                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+84-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:25:17-77
+84-->[com.google.firebase:firebase-messaging:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\5b2ad2b135e5f40100b67de7e4c80056\jetified-firebase-messaging-11.0.0\AndroidManifest.xml:25:25-75
+85            </intent-filter>
+86        </service>
+87
+88        <receiver
+88-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:30:9-35:20
+89            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+89-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:30:19-84
+90            android:exported="true"
+90-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:30:85-108
+91            android:permission="com.google.android.c2dm.permission.SEND" >
+91-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:30:109-169
+92            <intent-filter>
+92-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:31:13-34:29
+93                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+93-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:32:17-80
+93-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:32:25-78
+94
+95                <category android:name="com.hashtag.eldya7een" />
+95-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:33:17-60
+95-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:33:27-58
+96            </intent-filter>
+97        </receiver>
+98        <!--
+99 Internal (not exported) receiver used by the app to start its own exported services
+100             without risk of being spoofed.
+101        -->
+102        <receiver
+102-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:39:9-119
+103            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+103-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:39:19-92
+104            android:exported="false" />
+104-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:39:93-117
+105        <!--
+106 FirebaseInstanceIdService performs security checks at runtime,
+107             no need for explicit permissions despite exported="true"
+108        -->
+109        <service
+109-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:43:9-47:19
+110            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+110-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:43:18-82
+111            android:exported="true" >
+111-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:43:83-106
+112            <intent-filter android:priority="-500" >
+112-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:44:13-46:29
+112-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:44:28-51
+113                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+113-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:45:17-79
+113-->[com.google.firebase:firebase-iid:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\3f7bb48903ff9cd935d9db26028ecc24\jetified-firebase-iid-11.0.0\AndroidManifest.xml:45:25-77
+114            </intent-filter>
+115        </service>
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1774b481211ceaaf31e72d95e1ffe332\jetified-firebase-common-11.0.0\AndroidManifest.xml:6:9-194
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1774b481211ceaaf31e72d95e1ffe332\jetified-firebase-common-11.0.0\AndroidManifest.xml:6:79-143
+119            android:authorities="com.hashtag.eldya7een.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1774b481211ceaaf31e72d95e1ffe332\jetified-firebase-common-11.0.0\AndroidManifest.xml:6:19-78
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1774b481211ceaaf31e72d95e1ffe332\jetified-firebase-common-11.0.0\AndroidManifest.xml:6:144-168
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\1774b481211ceaaf31e72d95e1ffe332\jetified-firebase-common-11.0.0\AndroidManifest.xml:6:169-192
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\7a6cea1d833b37434e1487d9b4789a4f\jetified-play-services-basement-11.0.0\AndroidManifest.xml:20:9-121
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\7a6cea1d833b37434e1487d9b4789a4f\jetified-play-services-basement-11.0.0\AndroidManifest.xml:20:20-65
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:11.0.0] C:\Users\dev\.gradle\caches\transforms-2\files-2.1\7a6cea1d833b37434e1487d9b4789a4f\jetified-play-services-basement-11.0.0\AndroidManifest.xml:20:66-119
+126    </application>
+127
+128</manifest>

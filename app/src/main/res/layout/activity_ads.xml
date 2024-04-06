@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/bg"
+    tools:context="com.elabda3.eldaya7een.AdsPackage.AdsActivity">
+
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@+id/login"
+        android:id="@+id/viewPager"
+        />
+
+
+    <com.elabda3.eldaya7een.MyButtonBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_alignParentBottom="true"
+        android:text="دخول"
+        android:textColor="#ffffff"
+        android:id="@+id/login"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/progress"/>
+
+</RelativeLayout>

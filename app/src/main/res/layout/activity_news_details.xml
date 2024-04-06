@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layoutDirection="ltr"
+
+    tools:context="com.elabda3.eldaya7een.NewsDetailsPackage.NewsDetailsActivity">
+
+
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/toolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/top"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#342717"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_toLeftOf="@+id/center"
+                    android:layout_marginRight="50dp"
+                    >
+
+                    <com.elabda3.eldaya7een.MyTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:id="@+id/newsComments"
+                        />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/comments_detais"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:id="@+id/center"
+                    android:layout_centerHorizontal="true">
+
+                    <com.elabda3.eldaya7een.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:id="@+id/newsViews"
+                        />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/views_details"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_toRightOf="@+id/center"
+                    android:layout_marginLeft="50dp">
+
+                    <com.elabda3.eldaya7een.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:id="@+id/newsDate"
+                        />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/date_details"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:id="@+id/newsImage"
+                android:layout_below="@+id/top"
+                android:scaleType="fitXY"
+                />
+
+            <com.elabda3.eldaya7een.MyTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:textColor="#000000"
+                android:id="@+id/newsTitle"
+                android:layout_below="@+id/newsImage"
+                android:textSize="17sp"/>
+
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:textColor="#000000"
+                android:id="@+id/newsDetails"
+                android:layout_below="@+id/newsTitle"
+                android:textSize="17sp"/>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#342717"
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/leftarrow"
+            android:id="@+id/left"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/rightarrow"
+            android:layout_toRightOf="@+id/left"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/right"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/share"
+            android:layout_toRightOf="@+id/right"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/share"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/favnews"
+            android:layout_toRightOf="@+id/share"
+            android:layout_toLeftOf="@+id/comment"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/fav"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/comment"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/comment"
+            android:layout_marginLeft="20dp"
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

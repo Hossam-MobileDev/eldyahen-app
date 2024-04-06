@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layoutDirection="ltr"
+
+    tools:context="com.elabda3.eldaya7een.VideoDetailsPackage.VideoDetailsActivity">
+
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+
+    <com.pierfrancescosoffritti.youtubeplayer.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtubePlayer"
+        android:layout_below="@+id/toolbar"/>
+
+    <com.elabda3.eldaya7een.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_below="@+id/youtubePlayer"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:gravity="right"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layoutDirection="ltr"
+
+        tools:context=".AddDirectoryPackage.AddDirectoryDialogActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/add_phone_bg" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/phone" />
+
+            <com.elabda3.eldaya7een.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:text="أضف رقمك"
+                android:textColor="#C4880A" />
+
+
+            <com.elabda3.eldaya7een.MyEditText
+                android:id="@+id/fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/focusbackground"
+                android:gravity="right"
+                android:hint="اسمك بالكامل"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#B58415"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textSize="13sp" />
+
+
+            <com.elabda3.eldaya7een.MyEditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/focusbackground"
+                android:gravity="right"
+                android:hint="المدينة"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#B58415"
+                android:textSize="13sp" />
+
+
+            <com.elabda3.eldaya7een.MyEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/focusbackground"
+                android:gravity="right"
+                android:hint=" رقم الجوال"
+                android:padding="10dp"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:textColorHint="#B58415"
+                android:textSize="13sp" />
+
+            <com.elabda3.eldaya7een.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="تتعهد ادارة التطبيق بخصوصية وسرية المعلومات \n وعدم إفشاء هذي المعلومات او بيع أو المتاجرة أو التأجير لمصلحة طرف ثالث "/>
+
+            <com.elabda3.eldaya7een.MyButtonBold
+                android:id="@+id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/brown_round"
+                android:text="إضافة"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

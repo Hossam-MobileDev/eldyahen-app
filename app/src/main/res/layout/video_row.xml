@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layoutDirection="ltr"
+    >
+
+    <FrameLayout
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:id="@+id/frameVideo"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/videoImage"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:src="@drawable/video"/>
+
+
+    </FrameLayout>
+
+    <com.elabda3.eldaya7een.MyTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/frameVideo"
+        android:textColor="#000000"
+        android:gravity="right"
+        android:id="@+id/videoTitle"
+        android:padding="10dp"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

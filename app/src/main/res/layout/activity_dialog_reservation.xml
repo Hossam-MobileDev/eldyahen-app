@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:layoutDirection="ltr"
+    tools:context="com.elabda3.eldaya7een.CalenderPackage.DialogReservation.DialogReservaion">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <com.elabda3.eldaya7een.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="للحجز معنا"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <com.elabda3.eldaya7een.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ينبغي عليك التواصل معنا"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="2dp">
+
+            <com.elabda3.eldaya7een.MyTextViewBold
+                android:id="@+id/phone1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="#816A51"
+                android:textSize="20sp" />
+
+            <com.elabda3.eldaya7een.MyTextViewBold
+                android:id="@+id/phone2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="#816A51"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/insta"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/insta" />
+
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/insta"
+                android:src="@drawable/twitter" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/close" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

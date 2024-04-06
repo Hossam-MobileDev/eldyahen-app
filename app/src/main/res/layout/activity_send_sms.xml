@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:layoutDirection="ltr"
+    tools:context="com.elabda3.eldaya7een.SendSMSPackage.SendSmsActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_white_no_border"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/send_sms"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"/>
+
+
+                <com.elabda3.eldaya7een.MyTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="خدمة إرسال المسجات مقدمة من \n تطبيق الدياحين "
+                    android:textColor="#000000"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_white"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/send_phone"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/sendRightPhone"
+                        android:layout_centerVertical="true"/>
+
+                    <com.elabda3.eldaya7een.MyEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/senderPhone"
+                        android:layout_toLeftOf="@+id/sendRightPhone"
+                        android:background="@android:color/transparent"
+                        android:hint="رقم جوال المرسل"
+                        android:gravity="right"
+                        android:textSize="12sp"
+                        android:inputType="phone"
+                        android:paddingRight="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_white"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/send_phone"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/deliverdRightPhone"
+                        android:layout_centerVertical="true"/>
+
+                    <com.elabda3.eldaya7een.MyEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/deliveredPhone"
+                        android:layout_toLeftOf="@+id/deliverdRightPhone"
+                        android:background="@android:color/transparent"
+                        android:hint="رقم جوال المستقبل"
+                        android:inputType="phone"
+                        android:gravity="right"
+                        android:textSize="12sp"
+                        android:paddingRight="10dp"/>
+
+
+                </RelativeLayout>
+
+
+                <com.elabda3.eldaya7een.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/smsDetails"
+                    android:background="@drawable/round_white"
+                    android:layout_margin="10dp"
+                    android:minHeight="100dp"
+                    android:gravity="right"
+                    android:hint="نص الرسالة"
+                    android:textSize="12sp"
+                    android:paddingRight="20dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.elabda3.eldaya7een.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/numSms"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:visibility="gone"
+                        android:textSize="10sp"/>
+
+                    <com.elabda3.eldaya7een.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="عدد الرسائل : "
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@+id/numSms"
+                        android:textColor="#000000"
+                        android:visibility="gone"
+                        android:textSize="10sp"/>
+
+
+                    <com.elabda3.eldaya7een.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/numChars"
+                        android:layout_toLeftOf="@+id/numRight"
+                        android:layout_marginRight="1dp"
+                        android:textColor="#000000"
+                        android:textSize="10sp"/>
+
+                    <com.elabda3.eldaya7een.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="عدد الاحرف : "
+                        android:id="@+id/numRight"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#000000"
+                        android:textSize="10sp"/>
+
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/schedularLinear"
+                    android:visibility="gone"
+                    android:layout_marginBottom="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_white"
+                        android:padding="10dp"
+                        android:id="@+id/dateRelative"
+                        android:layout_margin="10dp">
+
+                        <com.elabda3.eldaya7een.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="10dp"
+                            android:text="0000/00/00"
+                            android:textSize="12sp"
+                            android:id="@+id/date"
+                            />
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/send_date"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/right"
+                            android:layout_centerVertical="true"/>
+
+
+                        <com.elabda3.eldaya7een.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/right"
+                            android:layout_marginRight="10dp"
+                            android:text="تاريخ الإرسال"
+                            android:textSize="12sp"
+                            />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_white"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/timeRelative"
+                        >
+
+                        <com.elabda3.eldaya7een.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="10dp"
+                            android:text="00:00"
+                            android:id="@+id/time"
+                            android:textSize="12sp"
+                            />
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/send_time"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/rightTime"
+                            android:layout_centerVertical="true"/>
+
+
+                        <com.elabda3.eldaya7een.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/rightTime"
+                            android:layout_marginRight="10dp"
+                            android:text="وقت الإرسال"
+                            android:textSize="12sp"
+                            />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <com.elabda3.eldaya7een.MyButtonBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="إرسال مجدولة"
+                    android:textColor="#ffffff"
+                    android:layout_margin="10dp"
+                    android:id="@+id/schedularBtn"
+                    android:background="@drawable/orange_round"/>
+
+                <com.elabda3.eldaya7een.MyButtonBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="إرسال الان"
+                    android:textColor="#ffffff"
+                    android:id="@+id/sendNowBtn"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/brown_round"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress"
+        android:visibility="gone"/>
+
+</RelativeLayout>
