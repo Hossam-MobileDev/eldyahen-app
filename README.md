@@ -1,12 +1,6 @@
 تطبيق شامل لقبيلة الدياحين يوفر معلومات عن الأنساب والتراث والأخبار القبلية
 
-📱 لقطات الشاشة
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/58e6f3ff-0d12-44d2-baec-abb91bdee6e1" width="200" alt="الرئيسية"/>
-  <img src="https://github.com/user-attachments/assets/64995bb9-4fe4-42d3-8b70-8cc13b05ecd2" width="200" alt="الإضافة"/>
-  <img src="https://github.com/user-attachments/assets/de5cf631-aa93-4c78-8d99-672f913453a0" width="200" alt="اتصل بنا"/>
-  <img src="https://github.com/user-attachments/assets/b9e3f9e5-1b96-41f9-8cc8-f56ad13b1fa3" width="200" alt="الأبراج العربية"/>
-</p>
+
 ✨ المميزات الرئيسية
 📊 الأبراج العربية وأحرف الأبجد
 
